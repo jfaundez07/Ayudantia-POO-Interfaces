@@ -48,7 +48,4 @@ public class Main {
 
         return usuario;
     }
-
-    //https://www.baeldung.com/java-org-json
-    //https://codegym.cc/es/groups/posts/es.150.bufferedreader-y-bufferedwriter
 }
