@@ -95,7 +95,13 @@ public class GestorArchivos implements Crud{
         }
     }
 
-    public void addUser(JSONObject usuario) {
+    public void createUser(String nombre, String apellido, String edad, String carrera, String matricula) {
+        JSONObject usuario = new JSONObject();
+        usuario.put("nombre", nombre);
+        usuario.put("apellido", apellido);
+        usuario.put("edad", edad);
+        usuario.put("carrera", carrera);
+        usuario.put("matricula", matricula);
         this.jsonList.add(usuario);
     }
 
